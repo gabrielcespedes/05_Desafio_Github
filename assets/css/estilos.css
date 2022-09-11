@@ -82,5 +82,10 @@ a {
   .container p {
     font-size: 1rem;
   }
+
+  #Hero-Section {
+    height: 500px;
+    background-size: auto;
+  }
 }
 
