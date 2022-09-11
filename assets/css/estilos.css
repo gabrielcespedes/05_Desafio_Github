@@ -40,6 +40,14 @@ nav img {
   font-size: 24px;
 }
 
+#Mis-trabajos {
+  background-color: royalblue;
+}
+
+#boton_final {
+  background-color: royalblue;
+}
+
 @media (max-width: 1000px) {
   .container h1 {
     font-size: 3rem;
