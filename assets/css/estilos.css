@@ -48,6 +48,14 @@ nav img {
   background-color: royalblue;
 }
 
+.card-body {
+  background-color:antiquewhite ;
+}
+
+a {
+  text-decoration: none;
+}
+
 @media (max-width: 1000px) {
   .container h1 {
     font-size: 3rem;

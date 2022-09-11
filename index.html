@@ -28,17 +28,15 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Acerca de mi</a>
+                        <a class="nav-link" href="#Acerca-de-mi">Acerca de mi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Trabajos</a>
+                        <a class="nav-link" href="#trabajos_row">Trabajos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#Contactame">Contacto</a>
                     </li>
-
                 </ul>
-
             </div>
         </div>
     </nav>
@@ -53,8 +51,12 @@
                     Soy profesor de física y matemática con vasta experiencia en distintas asignaturas. Ofrezco clases online y presenciales.
                 </p>
                 <div class="mb-5 pb-5">
-                    <button class="btn btn-lg btn-outline-secondary text-dark me-4">Trabajos</button>
-                    <button class="btn btn-lg btn-secondary text-light">Contacto</button>
+                    <button class="btn btn-lg btn-outline-secondary me-4">
+                        <a href="#trabajos_row" class="text-dark">Trabajos</a>
+                    </button>
+                    <button class="btn btn-lg btn-secondary">
+                        <a href="#Contactame" class="text-light">Contacto</a>
+                    </button>
                 </div>
             </div>
         </div>
@@ -94,56 +96,44 @@
 
     <section id="Mis-trabajos" class="my-5 p-5">
 
-        <h2 class="display-4 fw-bold text-center text-light mb-3">Mis trabajos</h2>
+        <h2 id="trabajos_row" class="display-4 fw-bold text-center text-light mb-3">Mis trabajos</h2>
 
         <div class="row">
             <div class="col-12 col-sm-4 py-2">
                 <div class="card">
-                    <div class="image-top" style="background-image: url(assets/img/card-1.jpg)"></div>
+                    <div class="image-top" style="background-image: url(assets/img/sala.jpg)"></div>
                     <div class="card-body">
-                        <h5 class="card-title fw-bold">Asado en la Patagonia</h5>
+                        <h5 class="card-title fw-bold">Clases presenciales y online</h5>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Explicabo iure sint, perspiciatis distinctio molestias nihil
-                            repudiandae neque rem adipisci repellendus libero illo quo
-                            blanditiis, velit quasi ad, recusandae voluptates officia.
+                            Docencia desde el año 2011 en distintos instituciones educacionales, junto con clases particulares ya sea en modalidad presencial u online.
                         </p>
-                        <button type="button" class="btn btn-outline-info">
-                            Ver más
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card">
+                    <div class="image-top" style="background-image: url(assets/img/tema.JPG); background-position: left;"></div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Página web con de ejercicios para distintas asignaturas</h5>
+                        <p class="card-text">
+                            Aplicación web desarrollada con el objetivo de subir distintos ejercicios para asignaturas y que sea fácil, por parte del alumno, buscar ejercicios tipo de cada tema.
+                        </p>
+                        <button type="button" class="btn btn-outline-dark">
+                            <a id="Contactame" href="https://cespedes.pythonanywhere.com/mate/" target="_blank" class="text-dark" >Ver más</a>
                         </button>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-sm-4 py-2">
                 <div class="card">
-                    <div class="image-top" style="background-image: url(assets/img/card-2.jpg)"></div>
+                    <div class="image-top" style="background-image: url(assets/img/sofia.JPG); background-position: left"></div>
                     <div class="card-body">
-                        <h5 class="card-title fw-bold">Papas del fin del mundo</h5>
+                        <h5 class="card-title fw-bold">Aplicación web para resumir contenidos</h5>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Deserunt a culpa doloremque voluptatem dicta nam. Maxime ipsum,
-                            consequatur quos error fuga excepturi quo. Laudantium optio
-                            pariatur laboriosam modi, ea molestias?
+                            Aplicación web diseñada para ingresar texto a modo de resúmenes de distintos temas, y organizarlos en forma secuencial.
                         </p>
-                        <button type="button" class="btn btn-outline-info">
-                            Ver más
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-4 py-2">
-                <div class="card">
-                    <div class="image-top" style="background-image: url(assets/img/card-3.jpg)"></div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Salmones de Alaska</h5>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Obcaecati facere quibusdam sint id laborum magni velit ducimus
-                            corporis facilis qui architecto dolor, accusamus eveniet
-                            exercitationem fugit. Quod autem neque ducimus.
-                        </p>
-                        <button type="button" class="btn btn-outline-info">
-                            Ver más
+                        <button type="button" class="btn btn-outline-dark">
+                            <a href="http://gabrielcespedes.pythonanywhere.com/" target="_blank" class="text-dark">Ver más</a>
                         </button>
                     </div>
                 </div>
@@ -152,16 +142,12 @@
 
     </section>
 
-
-
     <section id="Contacto" class="container my-5">
 
         <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
         
         <form>
-
-
-            <div class="form-group mb-4">
+            <div  class="form-group mb-4">
                 <label class="mb-2">Nombre</label>
                 <input class="form-control" placeholder="Nombre">
             </div>
@@ -180,19 +166,13 @@
             <div class="my-3 text-end">
                 <button id="boton_final" class="btn text-light">Enviar</button>
             </div>
-
-
-
         </form>
-
+        
     </section>
-
-
 
     <footer class="bg-dark text-center text-light p-4">
         <p class="mb-0">Gabriel Céspedes 2022. Todos los derechos reservados.</p>
     </footer>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
